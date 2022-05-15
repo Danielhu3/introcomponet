@@ -1,7 +1,12 @@
 import './App.css';
 import Input from './Components/Form/Input';
+import useForm from './Hooks/useForm';
 
 function App() {
+  const firstName = useForm()
+  const lastName = useForm()
+  const email = useForm('email')
+  const password = useForm('password')
   return (
     <div className="App"> 
       <div className='left-content'>
@@ -15,10 +20,10 @@ function App() {
           <a href='/'>Try it free 7 days</a> then $20/mo. thereafter
         </span>
         <form>
-          <Input placeholder='First Name' name='firstname'/>
-          <Input placeholder='Last Name' name='lirstname'/>
-          <Input placeholder='Email Address' name='email'/>
-          <Input placeholder='Password' name='password'/>
+          <Input placeholder='First Name' name='firstname' {...firstName}/>
+          <Input placeholder='Last Name' name='lastname' {...lastName}/>
+          <Input placeholder='Email Address' name='email' {...email}/>
+          <Input placeholder='Password' name='password' {...password}/>
           <button className='button'>Claim your free trial </button>
           <p>By clicking the button, you are agreeing to our <a href='/'>Terms and Services</a></p>
         </form>

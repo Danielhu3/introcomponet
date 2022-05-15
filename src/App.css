@@ -98,13 +98,17 @@ body{
   color: white;
   padding: 0.8rem;
   border: none;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
 }
 
 .right-content p{
   color: var(--grayish-blue);
+  text-align: center;
 }
 .right-content p a{
   text-decoration: none;
   color: var(--red);
   font-weight: 600;
+  
 }
