@@ -63,4 +63,48 @@ body{
 
 .right-content{
   grid-area: right;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: "span"
+                        "form";
+  gap: 2rem;
+}
+
+.right-content span{
+  grid-area: span;
+  background-color: var(--blue);
+  border-radius: 1rem;
+  color: var(--grayish-blue);
+}
+
+.right-content span a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.right-content form{
+  grid-area: form;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 3.2rem;
+}
+
+.right-content button{
+  background-color: var(--green);
+  border-radius: 0.5rem;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+}
+
+.right-content p{
+  color: var(--grayish-blue);
+}
+.right-content p a{
+  text-decoration: none;
+  color: var(--red);
+  font-weight: 600;
 }
