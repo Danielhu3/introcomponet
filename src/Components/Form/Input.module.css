@@ -1,21 +1,31 @@
 .input{
     display: block;
     width: 100%;
-    padding: 0.8rem;
+    padding: 1.6rem;
+    padding-left: 3.2rem;
     margin-bottom: 1.6rem;
     border-radius: 0.5rem;
-    border: solid 1px var(--grayish-blue);
     border: solid 1px lightgray;
+    
 }
 
 .input::placeholder{
     font-weight: 600;
-    /* ajustar alinhamento*/
 }
 
 .input:focus, .input:hover{
     outline: 1px solid var(--blue)
 
+}
+
+.input.inputError{
+   border: solid 2px var(--red);
+}
+
+.input.inputError::placeholder{
+    content: 'email@example.com';
+    height: inherit;
+    width: inherit;
 }
 
 .error{
