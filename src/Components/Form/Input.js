@@ -10,6 +10,7 @@ const Input = ({placeholder, name, type, value, onChange, error, validate}) => {
     name={name} id={name}
     onChange={onChange} value={value} className={`${styles.input} ${error ? styles.inputError : ''}`}
      onBlur={validate} >
+    
     </input>
     {error && <p className={styles.error}>{error}</p>}
     </>

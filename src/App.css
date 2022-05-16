@@ -56,6 +56,10 @@ body{
   color: white;
 }
 
+.title::after{
+  content: "TESTE";
+}
+
 .right-content{
   grid-area: right;
   display: grid;

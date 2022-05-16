@@ -5,13 +5,14 @@
     padding-left: 3.2rem;
     margin-bottom: 1.6rem;
     border-radius: 0.5rem;
-    border: solid 1px lightgray;
-    
+    border: solid 1px lightgray; 
 }
+
 
 .input::placeholder{
     font-weight: 600;
 }
+
 
 .input:focus, .input:hover{
     outline: 1px solid var(--blue)
@@ -25,6 +26,10 @@
 .input.inputError::placeholder{
     content: 'email@example.com';
     color: var(--red);
+    background: url('../../Assets/icon-error.svg') no-repeat;
+    background-position-x:right;
+    background-position-y:center;
+    background-size: contain;
 }
 
 .error{
