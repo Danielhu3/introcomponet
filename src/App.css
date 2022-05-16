@@ -34,7 +34,7 @@ body{
   gap: 2rem;
 
   background: url('./Assets/bg-intro-desktop.png'), var(--red);
-  height: 100vh;
+  min-height: 100vh;
   grid-template-areas: "left right";
   align-content: center;
   padding: 0 5rem;
@@ -113,4 +113,18 @@ body{
   color: var(--red);
   font-weight: 600;
   
+}
+
+@media screen and (max-width:560px) {
+  .App{
+    background: url('./Assets/bg-intro-mobile.png'), var(--red);
+    grid-template-columns: 1fr;
+    grid-template-areas: "left"
+                          "right";
+    padding: 3.2rem 1.6rem;                
+  }
+
+  .title, .description{
+    text-align: center;
+  }
 }
