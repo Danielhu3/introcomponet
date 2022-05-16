@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Danielhu3/introcomponet)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Danielhu3/introcomponet)
+- Live Site URL: [Click Here](https://your-live-site-url.com)
 
 ## My process
 
