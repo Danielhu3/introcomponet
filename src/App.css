@@ -25,6 +25,7 @@ html{
 
 body{
   font-size: 1.6rem;
+  
 }
 
 .App{
@@ -32,12 +33,11 @@ body{
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
-  height: 100vh;
   background: url('./Assets/bg-intro-desktop.png'), var(--red);
+  height: 100vh;
   grid-template-areas: "left right";
   align-content: center;
-  padding: 5rem;
-  
+  padding: 0 5rem;
   
 }
 
@@ -47,25 +47,20 @@ body{
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "title"
                         "description";
+  justify-content: center;
+  align-self: center;
+  
 }
 
 .title, .description{
   color: white;
 }
 
-.title{
-  grid-area: title;
-}
-
-.description{
-  grid-area: description;
-}
-
 .right-content{
   grid-area: right;
   display: grid;
-  
   gap: 2rem;
+  justify-content: center;
 }
 
 .price-info{
@@ -74,7 +69,7 @@ body{
   color: var(--grayish-blue);
   padding: 1.6rem;
   text-align: center;
-  box-shadow: 0 2px 2px 2px rgba(96, 85, 164, 0.2);
+  box-shadow: 0 2px 2px 2px rgba(0 , 0 , 0, 0.2);
 }
 
 .price-info a{
