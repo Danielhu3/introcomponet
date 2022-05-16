@@ -12,7 +12,7 @@ const Input = ({placeholder, name, type, value, onChange, error, validate}) => {
      onBlur={validate} >
     
     </input>
-    {error && <p className={styles.error}>{error}</p>}
+    {error && <p className={styles.error}>{placeholder} {error}</p>}
     </>
 
   )

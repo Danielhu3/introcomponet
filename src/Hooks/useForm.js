@@ -32,7 +32,7 @@ const useForm = (type) => {
                 return true
             }
             if(value.length === 0){
-                setError('Field cannot be empty')
+                setError('cannot be empty')
                 return false
             }
 
