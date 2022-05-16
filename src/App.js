@@ -16,16 +16,16 @@ function App() {
       </div>
 
       <div className='right-content'>
-        <span>
+        <span className='price-info'>
           <a href='/'>Try it free 7 days</a> then $20/mo. thereafter
         </span>
         <form>
-          <Input placeholder='First Name' name='firstname' {...firstName}/>
-          <Input placeholder='Last Name' name='lastname' {...lastName}/>
-          <Input placeholder='Email Address' name='email' {...email}/>
-          <Input placeholder='Password' name='password' {...password}/>
+          <Input placeholder='First Name' name='firstname' type='text' {...firstName}/>
+          <Input placeholder='Last Name' name='lastname' type='text'{...lastName}/>
+          <Input placeholder='Email Address' name='email' type='email'{...email}/>
+          <Input placeholder='Password' name='password' type='password'{...password}/>
           <button className='button'>Claim your free trial </button>
-          <p>By clicking the button, you are agreeing to our <a href='/'>Terms and Services</a></p>
+          <p className='terms-description'>By clicking the button, you are agreeing to our <a href='/'>Terms and Services</a></p>
         </form>
       </div>
     </div>

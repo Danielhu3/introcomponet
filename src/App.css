@@ -64,27 +64,27 @@ body{
 .right-content{
   grid-area: right;
   display: grid;
-  grid-template-rows: 1fr 4fr;
-  grid-template-areas: "span"
-                        "form";
+  
   gap: 2rem;
 }
 
-.right-content span{
-  grid-area: span;
+.price-info{
   background-color: var(--blue);
   border-radius: 1rem;
   color: var(--grayish-blue);
+  padding: 1.6rem;
+  text-align: center;
+  box-shadow: 0 2px 2px 2px rgba(96, 85, 164, 0.2);
 }
 
-.right-content span a{
+.price-info a{
   text-decoration: none;
   color: white;
   font-weight: 600;
 }
 
 .right-content form{
-  grid-area: form;
+ 
   background-color: white;
   border-radius: 1rem;
   padding: 3.2rem;
@@ -98,15 +98,20 @@ body{
   color: white;
   padding: 0.8rem;
   border: none;
-  margin-bottom: 0.8rem;
   cursor: pointer;
+  box-shadow: 0 2px 2px 2px rgba(55, 204, 140, 0.2)
 }
 
-.right-content p{
+.right-content button:hover{
+  opacity: 0.6;
+}
+
+.terms-description{
   color: var(--grayish-blue);
   text-align: center;
+  margin-top: 0.8rem;
 }
-.right-content p a{
+.terms-description a{
   text-decoration: none;
   color: var(--red);
   font-weight: 600;

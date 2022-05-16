@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Input.module.css'
 
-const Input = ({placeholder, name, value, onChange, error, validate}) => {
+const Input = ({placeholder, name, type, value, onChange, error, validate}) => {
 
   return (
     <>
-    <input type='text' placeholder={placeholder} name={name} id={name}
+    <input type={type} placeholder={placeholder} name={name} id={name}
     onChange={onChange} value={value} className={styles.input} onBlur={validate}>
     </input>
-    {error && <p>{error}</p>}
+    {error && <p className={styles.error}>{error}</p>}
     </>
 
   )
