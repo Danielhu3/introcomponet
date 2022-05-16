@@ -3,12 +3,12 @@ import React from 'react'
 const types ={
     email:{
         regex: /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i,
-        message: 'Preencha um email válido'
+        message: 'Enter a valid email address'
     },
 
     password:{
         regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/,
-        message: "Sua senha deverá conter pelo menos: 8 dígitos, 1 letra maiúscula, 1 letra minúscula",
+        message: "Your password must have at least: 8 characters, 1 upper case, 1 lower case, 1 number",
 
     }
 }
@@ -32,7 +32,7 @@ const useForm = (type) => {
                 return true
             }
             if(value.length === 0){
-                setError('Preencha um valor')
+                setError('Field cannot be empty')
                 return false
             }
 

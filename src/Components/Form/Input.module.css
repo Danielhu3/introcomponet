@@ -24,8 +24,7 @@
 
 .input.inputError::placeholder{
     content: 'email@example.com';
-    height: inherit;
-    width: inherit;
+    color: var(--red);
 }
 
 .error{
