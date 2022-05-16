@@ -11,10 +11,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,9 +27,16 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop Version
+<img src='./src/screenshots/desktop.png'>
+<img src='./src/screenshots/desktop-active.png'>
+
+#### Mobile Version
+<img src='./src/screenshots/mobile.png'>
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Danielhu3/introcomponet)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -41,28 +45,22 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- CSS Modules - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned more about manipulate pseudo-elements like ::placeholder. See a code example below:
 
-To see how you can add code snippets, see below:
+<img src='./src/screenshots/example-placeholder.png'>
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Danielhu3](https://www.frontendmentor.io/profile/Danielhu3)
+- Twitter - [@danielmaggot_](https://www.twitter.com/danielmaggot_)
 
-#########
 
 # Below this are standard infos about React Apps
 
