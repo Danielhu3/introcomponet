@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Danielhu3/introcomponet)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Live Site URL: [Click Here](https://danielhu3.github.io/introcomponet/)
 
 ## My process
 
