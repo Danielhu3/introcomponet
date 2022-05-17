@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/introcomponet/static/css/main.d3bc30f0.css",
+    "main.js": "/introcomponet/static/js/main.d94c8143.js",
+    "static/media/bg-intro-desktop.png": "/introcomponet/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "static/media/bg-intro-mobile.png": "/introcomponet/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
+    "index.html": "/introcomponet/index.html",
+    "static/media/icon-error.svg": "/introcomponet/static/media/icon-error.b72f792e9c900128f5c8.svg",
+    "main.d3bc30f0.css.map": "/introcomponet/static/css/main.d3bc30f0.css.map",
+    "main.d94c8143.js.map": "/introcomponet/static/js/main.d94c8143.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3bc30f0.css",
+    "static/js/main.d94c8143.js"
+  ]
+}
